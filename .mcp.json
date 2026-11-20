@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "northbound-sentinel": {
+      "type": "http",
+      "url": "https://app.northboundintelligence.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NORTHBOUND_API_KEY}"
+      }
+    }
+  }
+}
